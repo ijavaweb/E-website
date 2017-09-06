@@ -76,8 +76,13 @@ body{background: #fff url("../images/body_bg.png") repeat-x;}
     color:#fff;
 
 }
-.top_bar .image{
-    margin-right:14px;
+.image img{
+    float: left;
+    position:relative;
+    top:10px;
+}
+.top_bar .space{
+    margin-right:12px;
 }
 .top_bar a:hover{}
 
@@ -141,6 +146,7 @@ body{background: #fff url("../images/body_bg.png") repeat-x;}
 .search .text{
     width:230px;
     height:30px;
+    line-height: 30px;
     position: absolute;
     left:20px;
     top:0;
