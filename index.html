@@ -32,7 +32,7 @@
     <h1 title="ECOMMERCE WEBSITE"><a href="#"><img src="images/logo.png" alt="logo"/></a></h1>
     <div class="search">
         <form action="">
-            <input  class="text" type="text" value="Search website"/>
+            <input  id="text1" class="text" type="text" value="Search website"/>
             <input class="btn" type="submit" value=""/>
         </form>
     </div>
@@ -47,16 +47,19 @@
     <li><a href="#"><strong><span>SALE</span></strong></a></li>
     <li><a href="#"><strong><span>GIFT CARDS</span></strong></a></li>
     <li><a href="#"><strong><span>FREEBIES</span></strong></a></li>
-
-
-
 </ul>
 <div id="content">
     <div id="content_top">
         <div id="content_bottom">
             <div id="ad">
+                <a href="javascript:;" class="prev"></a>
+                <a href="javascript:;" class="next"></a>
+                <span class="prev_bg"></span>
+                <span class="next_bg"></span>
                 <ul>
-                    <li><a href="#"><img src="images/banner/1.png" alt=""/> </a> </li>
+                    <li><a href="#a1"><img src="images/banner/1.png" alt="" /></a></li>
+                    <li><a href="#a2"><img src="images/banner/2.png" alt="" /></a></li>
+                    <li><a href="#a3"><img src="images/banner/3.png" alt="" /></a></li>
                 </ul>
                 <h2>PRODUCT TITLE</h2>
                 <p>Lorem ipsum dolor sit amet,consectatur adipiscing eit.Cars suscipit lacus dapibus
@@ -108,7 +111,7 @@
                     </div>
                 </div>
                 <div id="wrap">
-                    <div class="sort">
+                    <div class="sort" id="sell">
                         <dl>
                             <dt>Sort by:</dt>
                             <dd>
@@ -232,7 +235,7 @@
                         <h2>FEATURED PRODUCTS</h2>
                         <div class="scroll_wrap">
                             <div class="scroll_wrap_l">
-                                <div class="scroll_wrap_r">
+                                <div id="run1" class="scroll_wrap_r">
                                     <a  class="prev" href="javascript:;"></a>
                                     <a  class="next" href="javascript:;"></a>
                                     <div class="list_wrap">
@@ -271,8 +274,8 @@
                     <input class="btn" type="submit" value="" />
                 </form>
             </div>
-        </div>
-        <div id="footer_link">
+    </div>
+    <div id="footer_link">
             <dl>
                 <dt>Company</dt>
                 <dd><a href="#">Home</a></dd>
@@ -316,7 +319,7 @@
                 <dd class="space"><a href="#">MON - SAT 9am to 7:30pm</a></dd>
                 <dd><a href="#">Sundays, holidays closed</a></dd>
             </dl>
-        </div>
+    </div>
 </div>
 
 <!--[if IE 6]>
@@ -325,6 +328,6 @@
     DD_belatedPNG.fix('*');
 </script>
 <![endif]-->
-
+<script src="js/main.js"></script>
 </body>
 </html>
